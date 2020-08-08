@@ -1,5 +1,5 @@
 # Tokyo Electric Power Company [TEPCO]
----
+--------
 ## CATEGORY 1:What the company does?
 
 ### What company/business are you evaluating?
@@ -39,19 +39,21 @@ Power stations and generation capacity
 ### What is the company’s market like, is it regulated, restructured or deregulated?
 
 Restructuring of the electric power market in Japan began in the 1990s, in line with the worldwide trend toward deregulation and aimed at correcting Japan's high cost structures and high prices relative to those in other countries.Hence the company's market is deregulated.
+
+
 ---
 ## CATEGORY 2:How the Company/Business Unit has Performed?
 
 ### What has been the overall state of the sector that the company/business unit operates in over the past 3-5 y in terms of product supply, demand and prices?
 
-* Supply
+* Supply\n
 TEPCO, accounted for 20% of total power generation in the country in 2016
 
-* Demand
+* Demand\n
 Although Japan has the third-highest demand for electricity in Asia, it has one of the lowest electricity demand growth rates in the region. Net electricity generation, which hovered around 1,000 Terawatthours (TWh) for more than a decade, was estimated at 935 TWh in 2015.
 Following the Fukushima incident(Fukushima nuclear power plant is owned by TEPCO), Japan encountered power supply shortages because the regional monopolies could not transmit electricity outside of their regions, and power costs rose following the loss of nuclear generation.
 
-* Prices
+* Prices\n
 Deregulation of Japan's electricity sector began in 1995 by giving industrial and commercial customers a choice of electric suppliers, although the country has been slow to fully separate its generation, transmission, and distribution sectors from the regional companies.
 Recent electricity reforms aim to achieve greater competition and lower electricity prices for consumers based on more efficient power sector operations and investments
 
@@ -62,6 +64,8 @@ It is the largest power utility in Japan and Asia, supplying lighting and power 
 ### Has the company/business unit grown/shrunk/stayed largely unchanged? Why?
 
 Amidst the continuing decreasing trend in domestic energy demand that has accompanied the spread of energy-sav-ing technologies and the across-the-board liberalization of gas and electric power retail, the TEPCO Group continued to find itself embroiled in harsh competition during this consolidated financial year.In accordance with the Third Comprehensive Special Business Plan (Third Business Plan), the TEPCO Group has steadily moved forward with initiatives aimed at continu-al growth, such as investing in new growth ventures, and refining existing businesses by identifying weaknesses through kaizen activities, in order to increase corporate value and fulfill the Group’s responsibilities to Fukushima.Electricity sales (consolidated) for the TEPCO Group during this consolidated financial year decreased YoY by 4.2% to 230.3 billion kWh due to the impact of the across-the-board liberalization of the electricity.
+
+
 ---
 ## CATEGORY 3:What the Challenges/Successes have been for the Company?
 
@@ -79,16 +83,16 @@ Amidst the continuing decreasing trend in domestic energy demand that has accomp
 
 TEPCO Group says that the company’s business operations may be significantly affected if the following risks materialize in the next 3-5 years.
 
-* **Nuclear Power Generation and Nuclear Fuel Cycle**
+* **Nuclear Power Generation and Nuclear Fuel Cycle :**
 Based on the outcome of the nuclear accident at Fukushi-ma, revisions are being made to Japan’s national nuclear policy,  while  the  Nuclear  Regulation  Authority  has  re-solved to tighten safety regulations. The operations of the stockholding  company  TEPCO  Holdings  and  its  affiliates  involving nuclear power generation and the nuclear fuel cycle  might  be  affected  by  such  revisions.  These  factors  may,  in  turn,  impact  the  Group’s  business  performance  and financial condition.
 
-* **Electricity Sales Volume**
+* **Electricity Sales Volume :**
 The volume of sales in the electric power business directly reflects  economic  and  industrial  activities  and  is  subject  to the influence of the economic environment. Moreover, demand for air conditioning and heating is subject to the influence of the weather, particularly in the summer and the winter. In addition, such factors as intensifying com-petition due to the full liberalization of the electricity retail market that took effect in April 2016, the popularization of  energy  conservation  measures  and  the  advancement  of  energy-saving  technologies  may  impact  the  sales  of  electricity.  These  issues  could  affect  the  TEPCO  Group’s  business performance and financial condition.
 
-* **Business and Environmental Regulations**
+* **Business and Environmental Regulations :**
 The  possible  regulatory  environment  changes  closely  re-lated to the TEPCO Group, such as changes in the struc-ture  of  electric  power  business  resulting  from  the  revi-sions  of  national  policy  on  energy  and  a  tightening  of  regulations  on  global  warming,  could  affect  the  TEPCO  Group’s  business  performance  and  financial  condition.  In  addition,  such  issues  as  a  decrease  in  the  quality  of  electric power due to a substantial increase in renewable energy  resulting  from  stricter  environmental  regulations  could disrupt the smooth execution of Group operations
 
-* **Fossil Fuel Prices**
+* **Fossil Fuel Prices :**
 The prices for liquefied natural gas (LNG), crude oil, coal and other fuels for thermal power generation change ac-cording to factors that include conditions in international fuel  markets  and  foreign  exchange  market  movements,  which  could  affect  the  TEPCO  Group’s  business  perfor-mance and financial condition. However, changes in fuel prices  and  foreign  exchange  markets  are  reflected  in  electricity rates through the fuel cost adjustment system, which reduces the impact on performance from fuel price fluctuations within a defined range.
 
 ### What does the company/business unit (and/or expert followers of it) say are its plans or strategy for the upcoming several years?
