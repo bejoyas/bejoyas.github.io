@@ -1,6 +1,6 @@
 # Tokyo Electric Power Company [TEPCO]
-
-## CATEGORY_1 [What the company does]
+---
+## CATEGORY 1:What the company does?
 
 ### What company/business are you evaluating?
 
@@ -39,8 +39,8 @@ Power stations and generation capacity
 ### What is the company’s market like, is it regulated, restructured or deregulated?
 
 Restructuring of the electric power market in Japan began in the 1990s, in line with the worldwide trend toward deregulation and aimed at correcting Japan's high cost structures and high prices relative to those in other countries.Hence the company's market is deregulated.
-
-## CATEGORY_2[How the Company/Business Unit has Performed?]
+---
+## CATEGORY 2:How the Company/Business Unit has Performed?
 
 ### What has been the overall state of the sector that the company/business unit operates in over the past 3-5 y in terms of product supply, demand and prices?
 
@@ -62,8 +62,8 @@ It is the largest power utility in Japan and Asia, supplying lighting and power 
 ### Has the company/business unit grown/shrunk/stayed largely unchanged? Why?
 
 Amidst the continuing decreasing trend in domestic energy demand that has accompanied the spread of energy-sav-ing technologies and the across-the-board liberalization of gas and electric power retail, the TEPCO Group continued to find itself embroiled in harsh competition during this consolidated financial year.In accordance with the Third Comprehensive Special Business Plan (Third Business Plan), the TEPCO Group has steadily moved forward with initiatives aimed at continu-al growth, such as investing in new growth ventures, and refining existing businesses by identifying weaknesses through kaizen activities, in order to increase corporate value and fulfill the Group’s responsibilities to Fukushima.Electricity sales (consolidated) for the TEPCO Group during this consolidated financial year decreased YoY by 4.2% to 230.3 billion kWh due to the impact of the across-the-board liberalization of the electricity.
-
-##CATEGORY_3[What the Challenges/Successes have been for the Company?]
+---
+## CATEGORY 3:What the Challenges/Successes have been for the Company?
 
 ### What have been the most significant challenges and/or successes for the company over the past 3-5 y?
 
@@ -91,7 +91,7 @@ The  possible  regulatory  environment  changes  closely  re-lated to the TEPCO 
 * **Fossil Fuel Prices**
 The prices for liquefied natural gas (LNG), crude oil, coal and other fuels for thermal power generation change ac-cording to factors that include conditions in international fuel  markets  and  foreign  exchange  market  movements,  which  could  affect  the  TEPCO  Group’s  business  perfor-mance and financial condition. However, changes in fuel prices  and  foreign  exchange  markets  are  reflected  in  electricity rates through the fuel cost adjustment system, which reduces the impact on performance from fuel price fluctuations within a defined range.
 
-###· What does the company/business unit (and/or expert followers of it) say are its plans or strategy for the upcoming several years?
+### What does the company/business unit (and/or expert followers of it) say are its plans or strategy for the upcoming several years?
 
 The Tokyo Electric Power Company, Incorporated (TEPCO) has established its "2020 Vision: Medium to Long-term Growth Declaration and according to the experts ,TEPCO Group will make a new start under "2020 Vision: Medium to Long-term Growth Declaration." It is for the first time in six years since they formulated the previous management plan "Management Vision 2010."
 Under "2020 Vision, "based on the Management principle for "Contributing to creating affluent and comfortable environments by providing optimum energy services," they presented "Value social trust," "Open the way to the
