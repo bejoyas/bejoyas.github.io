@@ -46,14 +46,23 @@ Restructuring of the electric power market in Japan began in the 1990s, in line 
 
 ### What has been the overall state of the sector that the company/business unit operates in over the past 3-5 y in terms of product supply, demand and prices?
 
-* Supply\n
+* Supply
+
+
+
 TEPCO, accounted for 20% of total power generation in the country in 2016
 
-* Demand\n
+* Demand
+
+
+
 Although Japan has the third-highest demand for electricity in Asia, it has one of the lowest electricity demand growth rates in the region. Net electricity generation, which hovered around 1,000 Terawatthours (TWh) for more than a decade, was estimated at 935 TWh in 2015.
 Following the Fukushima incident(Fukushima nuclear power plant is owned by TEPCO), Japan encountered power supply shortages because the regional monopolies could not transmit electricity outside of their regions, and power costs rose following the loss of nuclear generation.
 
-* Prices\n
+* Prices
+
+
+
 Deregulation of Japan's electricity sector began in 1995 by giving industrial and commercial customers a choice of electric suppliers, although the country has been slow to fully separate its generation, transmission, and distribution sectors from the regional companies.
 Recent electricity reforms aim to achieve greater competition and lower electricity prices for consumers based on more efficient power sector operations and investments
 
@@ -71,12 +80,18 @@ Amidst the continuing decreasing trend in domestic energy demand that has accomp
 
 ### What have been the most significant challenges and/or successes for the company over the past 3-5 y?
 
-* Challenges
+* **Challenges**
 
   1. Accident at Fukushima Daiichi Nuclear Power Station
+
+
+
   *The accident that occurred at the Fukushima Daiichi Nuclear Power Station as a result of the Tohoku-Chihou-Taiheiyou-Oki Earthquake and subse-quent tsunami has caused widespread anxiety with re-gard to such issues as the dispersal of radioactive sub-stances and disruption in the stable supply of electricity. Also, the accident led to a significant deterioration in the TEPCO Group’s management conditions.*
 
   2. Business and Environmental Regulations
+
+
+
   *The possible regulatory environment changes closely re-lated to the TEPCO Group, such as changes in the structure of electric power business resulting from the revisions of national policy on energy and a tightening of regulations on global warming, affected the TEPCO Group’s business performance and financial condition*
 
 ### What challenges/successes does the company/business unit (and/or expert followers of it) say it will be positioning itself for in the next 3-5 y?
