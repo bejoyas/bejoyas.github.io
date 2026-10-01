@@ -86,7 +86,7 @@ footer{padding:60px 7vw;background:#101713;color:#9ba59f;display:flex;justify-co
 .itineraryText{font-size:12px;line-height:1.5;color:#46534d}
 @media(max-width:700px){.itineraryRow{grid-template-columns:55px 1fr}}
 
-</style>
+\n.seniorFeature{background:var(--cream);padding-top:90px;padding-bottom:90px}.seniorFeatureGrid{display:grid;grid-template-columns:1.05fr .95fr;min-height:560px;background:var(--paper);border:1px solid var(--line)}.seniorFeatureImage{min-height:560px;overflow:hidden}.seniorFeatureImage img{width:100%;height:100%;object-fit:cover}.seniorFeatureCopy{padding:7vw;display:flex;flex-direction:column;justify-content:center}.seniorFeatureMeta{font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--terracotta);margin:24px 0}.seniorFeatureCopy .darkBtn{align-self:flex-start}.seniorPackageModal{position:fixed;inset:0;background:rgba(10,18,14,.82);backdrop-filter:blur(12px);z-index:90;display:none;align-items:center;justify-content:center;padding:20px}.seniorPackageModal.open{display:flex}.seniorPackagePanel{background:var(--paper);width:min(1000px,100%);max-height:92vh;overflow:auto;padding:38px;border-radius:4px}.seniorPackageTop{display:flex;justify-content:space-between;align-items:start;gap:30px}.seniorPackageClose{border:0;background:none;font-size:28px;cursor:pointer}.seniorPackagePanel .itineraryBlock{margin-top:22px}.seniorPackagePanel .itineraryRow{padding:10px 0}.seniorPackageSwitch{display:flex;gap:8px;margin:24px 0;flex-wrap:wrap}@media(max-width:800px){.seniorFeatureGrid{grid-template-columns:1fr}.seniorFeatureImage{min-height:420px}.seniorFeatureCopy{padding:45px 7vw}.seniorPackagePanel{padding:25px}.seniorFeature{padding-top:60px;padding-bottom:60px}}\n</style>
 </head>
 <body>
 <div class="cursor" id="cursor"></div>
@@ -120,6 +120,19 @@ footer{padding:60px 7vw;background:#101713;color:#9ba59f;display:flex;justify-co
     <div class="kicker" style="color:#d5a587">The VAYO philosophy</div>
     <h2 class="display">Highly designed backstage.<br><em>Genuinely organic frontstage.</em></h2>
     <p class="body" style="color:#c7d0ca;margin-top:30px">A beautiful place is not enough. A list of activities is not enough. We create the conditions for surprise, connection, freedom and the kind of moments that become stories.</p>
+  </div>
+</section>
+
+<section class="section seniorFeature" id="senior-mom-dad">
+  <div class="seniorFeatureGrid">
+    <div class="seniorFeatureImage"><img src="assets/vayo-generated-hero.jpg" alt="Senior Mom & Dad couple escape"></div>
+    <div class="seniorFeatureCopy">
+      <div class="kicker">Featured experience / Couple edition</div>
+      <h2 class="display">Senior Mom<br>& Dad.</h2>
+      <p class="body">A carefully paced Kerala escape built around wellness, comfort, meaningful time together and one or two memorable local experiences.</p>
+      <div class="seniorFeatureMeta">2D / 1N · THE SHORT ESCAPE &nbsp;&nbsp; 3D / 2N · THE COMPLETE ESCAPE</div>
+      <button class="darkBtn" onclick="openSeniorPackage()">View itineraries →</button>
+    </div>
   </div>
 </section>
 
@@ -234,7 +247,7 @@ footer{padding:60px 7vw;background:#101713;color:#9ba59f;display:flex;justify-co
 <footer><div><div class="footerLogo">VAYO</div><p>A different life for a few days.</p></div><div>Kerala, India<br>People / Places / Stories</div><div>Prototype · 2026<br>Built to be felt, not explained.</div></footer>
 
 <div class="modal" id="modal"><div class="modalPanel"><div class="modalTop"><div><div class="kicker" id="mTag"></div><h2 class="display" id="mTitle"></h2></div><button class="close" onclick="closeModal()">×</button></div><div class="modalHero"><img id="mImg"></div><p class="body" id="mDesc"></p><div id="seniorItinerary" class="seniorItinerary" style="display:none"><div class="seniorIntro">A premium couple's escape built around being looked after, feeling refreshed and enjoying Kerala at an unhurried pace.</div><div class="itineraryTabs"><button class="itineraryTab active" data-itinerary="short">The Short Escape · 2D / 1N</button><button class="itineraryTab" data-itinerary="complete">The Complete Escape · 3D / 2N</button></div><div id="itineraryContent"></div></div><div class="bookingBar"><div><small id="mMeta"></small></div><button class="darkBtn" onclick="document.querySelector('#book').scrollIntoView();closeModal()">Start this story →</button></div></div></div>
-<div class="toast" id="toast"></div>
+<div class="seniorPackageModal" id="seniorPackageModal"><div class="seniorPackagePanel"><div class="seniorPackageTop"><div><div class="kicker">Senior Mom & Dad / Couple edition</div><h2 class="display">Two ways to escape.</h2></div><button class="seniorPackageClose" onclick="closeSeniorPackage()">×</button></div><div class="seniorPackageSwitch"><button class="itineraryTab active" data-sp="short">The Short Escape · 2D / 1N</button><button class="itineraryTab" data-sp="complete">The Complete Escape · 3D / 2N</button></div><div id="seniorPackageContent"></div></div></div><div class="toast" id="toast"></div>
 
 <script>
 const experiences=[
@@ -349,6 +362,6 @@ function initialisePlan(){
 }
 initialisePlan();
 
-</script>
+\nfunction openSeniorPackage(){document.getElementById("seniorPackageModal").classList.add("open");document.body.style.overflow="hidden";renderSeniorPackage("short")}function closeSeniorPackage(){document.getElementById("seniorPackageModal").classList.remove("open");document.body.style.overflow=""}function renderSeniorPackage(which){const box=document.getElementById("seniorPackageContent");box.innerHTML=seniorItineraries[which].map(d=>'<div class="itineraryBlock"><div class="itineraryDay">'+d[0]+'</div>'+d[1].map(r=>'<div class="itineraryRow"><div class="itineraryTime">'+r[0]+'</div><div class="itineraryText">'+r[1]+'</div></div>').join('')+'</div>').join('');document.querySelectorAll("[data-sp]").forEach(b=>b.classList.toggle("active",b.dataset.sp===which))}document.querySelectorAll("[data-sp]").forEach(b=>b.onclick=()=>renderSeniorPackage(b.dataset.sp));document.getElementById("seniorPackageModal").addEventListener("click",e=>{if(e.target.id==="seniorPackageModal")closeSeniorPackage()});\n</script>
 </body>
 </html>
