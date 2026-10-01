@@ -49,6 +49,141 @@ nav{height:76px;padding:0 6vw;border-bottom:1px solid rgba(23,32,42,.16);backgro
 footer{background:#0d151c!important}
 @media(max-width:1180px){.hero h1{font-size:58px}.planner{grid-template-columns:260px 1fr}.imageCardGrid{grid-template-columns:1fr 1fr}.controls{grid-template-columns:1fr 1fr}.actionRow{grid-column:auto}}
 @media(max-width:800px){nav{padding:0 24px}.navcta{display:none}.hero{height:540px}.heroCopy{left:24px;top:65px;right:24px}.hero h1{font-size:49px}.hero p{font-size:16px}.hero:before{width:220px;height:220px;right:-30px;top:200px}.steps{padding:0 24px}.controls{padding:14px}.planner{padding:0 14px 20px}.imageCardGrid{grid-template-columns:1fr}.destinationGrid{grid-template-columns:1fr}#experiences,#destinations,#story{padding-left:24px!important;padding-right:24px!important}}
+
+/* Mobile-first responsive pass */
+html,body{max-width:100%;overflow-x:hidden}
+img{height:auto}
+@media (max-width: 700px){
+  nav{height:64px;padding:0 18px}
+  .brand{font-size:16px;letter-spacing:.18em}
+  .brand:before{width:14px;height:14px}
+  .navlinks{display:none}
+  .navcta{padding:10px 15px;font-size:11px}
+  
+  .hero{height:420px}
+  .hero img{object-position:center center}
+  .hero:before{width:210px;height:210px;right:-55px;top:55px}
+  .heroCopy{left:22px;right:22px;top:58px;max-width:none}
+  .hero h1{font-size:40px;line-height:1.02}
+  .hero p{font-size:14px;line-height:1.5;max-width:330px}
+  
+  .steps{height:auto;display:flex;overflow-x:auto;padding:10px 18px;gap:0;-webkit-overflow-scrolling:touch}
+  .step{min-width:155px;height:58px;gap:8px}
+  .step:not(:last-child):after{left:32px;right:0}
+  .stepNo{width:28px;height:28px;font-size:12px}
+  .stepText strong{font-size:12px}
+  .stepText span{font-size:8px}
+  
+  .controls{display:grid;grid-template-columns:1fr 1fr;gap:8px;padding:12px 14px}
+  .control{min-height:58px;padding:8px 10px}
+  .controlIcon{font-size:17px;width:22px}
+  .control label{font-size:9px}
+  .control select,.control input{font-size:12px}
+  .actionRow{grid-column:1/-1;display:grid;grid-template-columns:1fr 1fr;gap:8px}
+  .actionRow .outlineBtn,.actionRow .darkBtn{width:100%;height:44px;padding:0 10px}
+  
+  .planner{display:flex;flex-direction:column;gap:12px;padding:0 14px 18px}
+  .panel{min-height:0;border-radius:10px}
+  .modulePanel{order:1}
+  .calendarPanel{order:2}
+  .previewPanel{order:3}
+  .panelHead{padding:14px}
+  .panelHead h2{font-size:18px}
+  
+  .moduleTools{grid-template-columns:1fr auto;padding:9px 10px}
+  .moduleTools .search{height:38px}
+  .addModuleBtn{height:38px;padding:0 10px}
+  .moduleGroup{margin:0 8px 6px}
+  .groupHead{padding:11px 10px}
+  .groupItems{padding:4px}
+  .module{grid-template-columns:46px 1fr auto;padding:7px 5px}
+  .thumb{width:46px;height:38px}
+  .moduleName{font-size:11px}
+  .moduleMeta{font-size:8px}
+  .modulePrice{font-size:8px}
+  
+  .calendarPanel{overflow:hidden}
+  .dayTabs{overflow-x:auto;-webkit-overflow-scrolling:touch}
+  .dayTab{min-width:112px;padding:11px 12px}
+  .dayTab strong{font-size:13px}
+  .dayTab span{font-size:8px}
+  .addDay{min-width:95px}
+  .timelineWrap{grid-template-columns:52px minmax(0,1fr);min-height:520px}
+  .timeAxis{height:520px}
+  .timeAxis div{right:6px;font-size:8px}
+  .timeline{height:520px;min-width:0}
+  .event{left:7px;right:7px;padding-left:8px;padding-right:30px}
+  .event strong{font-size:10px}
+  .event small{font-size:7px}
+  .event.slot30 strong{font-size:7px}
+  .event.slot30 small{font-size:6px}
+  .event .grip{left:4px;font-size:10px}
+  .event .more{right:4px;top:5px;font-size:13px}
+  .resize{width:26px}
+  
+  .preview{padding:9px}
+  .previewHero{height:210px}
+  .previewText{left:14px;bottom:13px}
+  .previewText h3{font-size:20px}
+  .previewRow{grid-template-columns:10px 48px 1fr auto;gap:7px;padding:7px 2px}
+  .previewRow img{width:48px;height:30px}
+  .previewRow b{font-size:11px}
+  
+  .summary{margin:0 14px 18px;padding-top:10px;display:grid;grid-template-columns:1fr 1fr;gap:8px}
+  .metric{min-width:0;padding:9px 12px}
+  .metric strong{font-size:15px;margin-left:5px}
+  .summaryActions{grid-column:1/-1;display:grid;grid-template-columns:1fr 1fr 1fr;gap:7px;width:100%}
+  .summaryActions button{width:100%;padding:0 7px;font-size:10px}
+  
+  .imageCardGrid{grid-template-columns:1fr 1fr;gap:9px}
+  .imageCard{min-height:205px}
+  .imageCardContent{left:12px;right:12px;bottom:12px}
+  .imageCardContent h3{font-size:20px}
+  .imageCardContent p{font-size:9px}
+  .destinationGrid{grid-template-columns:1fr;gap:10px}
+  .destinationCard{height:250px}
+  .destinationText{left:15px;bottom:15px}
+  .destinationText h3{font-size:25px}
+  .storyVisual{grid-template-columns:1fr;gap:20px}
+  .storyImage{height:280px}
+  
+  .modal{padding:10px}
+  .modalBox{padding:20px 16px;max-height:94vh}
+  .modalTop h2{font-size:28px}
+  .reviewGrid{grid-template-columns:1fr}
+  .reviewRow{grid-template-columns:52px 1fr 65px;gap:7px;font-size:10px}
+  
+  .moduleModal{padding:10px}
+  .moduleForm{padding:20px 16px;max-height:94vh;overflow:auto}
+  .moduleForm h2{font-size:26px}
+  .moduleFields{grid-template-columns:1fr}
+  .moduleField.full{grid-column:auto}
+  .moduleFormActions{display:grid;grid-template-columns:1fr 1fr}
+  .moduleFormActions button{width:100%}
+}
+@media (max-width: 420px){
+  .hero{height:390px}
+  .hero h1{font-size:34px}
+  .hero p{font-size:13px}
+  .controls{grid-template-columns:1fr}
+  .actionRow{grid-template-columns:1fr}
+  .steps{padding-left:12px;padding-right:12px}
+  .step{min-width:145px}
+  .imageCardGrid{grid-template-columns:1fr}
+  .imageCard{min-height:230px}
+  .summary{grid-template-columns:1fr}
+  .summaryActions{grid-template-columns:1fr}
+  .timelineWrap{grid-template-columns:48px minmax(0,1fr)}
+  .event{left:5px;right:5px}
+  .event strong{font-size:9px}
+}
+@media (min-width:701px) and (max-width:1050px){
+  .planner{grid-template-columns:230px minmax(480px,1fr)}
+  .previewPanel{grid-column:1/-1}
+  .controls{grid-template-columns:1fr 1fr 1fr}
+  .actionRow{grid-column:auto}
+}
+
 </style>
 </head>
 <body>
